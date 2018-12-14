@@ -1,0 +1,8 @@
+1. Build blog:
+
+cd __source
+nikola build
+
+2. Copy output to root:
+
+rsync -rvtp --delete ./__source/output/* .
